@@ -12,8 +12,6 @@ import requests
 import time
 from dotenv import load_dotenv # New import
 
-import math
-
 def get_entropy(s):
     """
     Calculates the Shannon entropy of a string.
